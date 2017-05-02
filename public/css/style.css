@@ -1,0 +1,55 @@
+div.heading{
+  text-align: center;
+  font-family: monospace;
+  background-color: rgba(124,150,122,0.8);
+  height: 80px;
+  padding-top: 15px;
+}
+
+.button{
+    background-color: rgba(250,120,120,0.85);
+    border: none;
+    color: blue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 200px;
+  }
+
+.viewLinks{
+  font-family: monospace;
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  background-color: rgba(180,220,120,0.8);
+}
+
+div.firstDiv{
+  font-family: monospace;
+  padding-top: 15px;
+  font-size: 30px;
+  padding-bottom: 15px;
+  text-align: center;
+  background-color: yellow;
+}
+
+div.output{
+  font-family: monospace;
+  font-size: 15px;
+  height: 150px;
+  width: 30%;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(200,20,200,0.75);
+  padding-top: 10px;
+}
+
+body{
+  background-color: rgba(180,190,120,0.6);
+}

@@ -1,0 +1,22 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Names Greeted:</h1>
+    </div>
+    <br>
+    <div class="firstDiv">
+        <ul style="list-style: none;">
+            {{#each namesGreeted}}
+                <li><a href="counter/{{this}}" display='block'>{{this}}</a></li><br>
+                {{else}}
+                    <li>Sorry, no names have been greeted. </li>
+            {{/each}}
+        </ul>
+    </div>
+    <div class="viewLinks">
+    <a display="block" href="/" >Go back to the main greeting page</a>
+  </div>
+</body>

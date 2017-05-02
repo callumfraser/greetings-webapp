@@ -1,0 +1,28 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Welcome to the greeting page</h1>
+    </div>
+    <br>
+    <div class="firstDiv">
+        <form class="" action="/" method="post">
+            <input placeholder="Enter name here"type='text' name='firstName'><br><br>
+            <input type="radio" name="language" value="isiXhosa"> isiXhosa
+            <input type="radio" name="language" value="English"> English
+            <input type="radio" name="language" value="Afrikaans"> Afrikaans <br><br>
+            <input name="greetButton" type="submit" value="Greet up"class="button"><br>
+    </div>
+    <div class="output">
+        <p>{{greeting}}</p>
+        Greetings so far today: {{amount}}<br><br>
+        <input name="clearButton" type="submit" value="Clear greetings history"class="button">
+        </form>
+    </div>
+    <br><br>
+    <div class="viewLinks">
+        <a href="/greeted">View history of greetings</a>
+    </div>
+</body>
