@@ -16,6 +16,7 @@ div.heading{
     display: inline-block;
     font-size: 16px;
     border-radius: 200px;
+    font-family: monospace;
   }
 
 .viewLinks{
